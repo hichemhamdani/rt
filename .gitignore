@@ -1,0 +1,55 @@
+# WordPress core files (ne pas versionner le core)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+/local-xdebuginfo.php
+
+# Configuration sensible
+/wp-config.php
+
+# Uploads (médias)
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/upgrade/
+
+# Backups
+wp-content/ai1wm-backups/
+
+# Plugins courants à exclure (installables via composer/wp-cli)
+# Décommentez si vous ne voulez pas versionner les plugins
+# wp-content/plugins/
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+error_log
+access_log
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Sass / build artifacts
+.sass-cache/
+*.css.map
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local WP / DevKinsta
+*.sql
+*.sql.gz
