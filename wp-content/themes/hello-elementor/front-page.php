@@ -121,10 +121,13 @@ p:last-child { margin-bottom: 0; }
   width: 100%;
   z-index: 200;
 }
+.admin-bar .rt-header-wrap { top: 32px; }
+@media screen and (max-width: 782px) { .admin-bar .rt-header-wrap { top: 46px; } }
 
 /* Top announcement bar */
 .rt-topbar {
   background: linear-gradient(90deg, var(--navy), var(--blue));
+  border-bottom: 1px solid rgba(255,255,255,0.25);
   transition: opacity .3s, visibility .3s;
 }
 .rt-topbar-inner {
@@ -138,7 +141,7 @@ p:last-child { margin-bottom: 0; }
 .rt-topbar a {
   color: #fff;
   font-family: var(--fh);
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
